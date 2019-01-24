@@ -1,0 +1,25 @@
+#website to track worship ministry songs and transpose song
+
+# search engine
+<script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings'
+  });
+</script>
+
+<div id="typed-strings">
+    <p>Typed.js is a <strong>JavaScript</strong> library.</p>
+    <p>It <em>types</em> out sentences.</p>
+</div>
+<span id="typed"></span>
+
+
+
+#type pausing 
+var typed = new Typed(".element", {
+  // Waits 1000ms after typing "First"
+  strings: ["First ^1000 sentence.", "Second sentence."]
+});
+
+
+
